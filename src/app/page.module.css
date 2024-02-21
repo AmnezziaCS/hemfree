@@ -1,8 +1,121 @@
 .contentSection {
     padding-top: 200px;
     padding-bottom: 200px;
+    background-color: #303063;
+    color: #000000;
+    background-image: url('https://img.freepik.com/premium-vector/vector-abstract-background-with-overlap-layer-dynamic-shadow-background-eps-10_87783-530.jpg');
+    background-size: cover;
 }
 
 .textCenter {
     text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-size: contain;
+    background-image: url('https://img.freepik.com/free-photo/artistic-texture-paint-brush-stroke_23-2148177480.jpg?w=1480&t=st=1708524698~exp=1708525298~hmac=4bb25032d73498784078a662dfd5310427b052755a03907d3fd0e956baebf69f');
+}
+
+.nav {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-color: #212122;
+}
+
+.navLink {
+    margin-right: 10px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.navLinku {
+    margin-right: 1440px;
+    text-decoration: none;
+    color: #9e1b1b;
+    font-size: large;
+}
+
+.navLink:hover {
+    color: #dddddd;
+}
+
+.h3 {
+    color: #ffffff;
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.p {
+    color: #dddddd;
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+.container {
+    padding: 20px;
+    background-color: #303063;
+    color: rgb(255, 255, 255);
+    height: 65vh;
+    text-align: center;
+    justify-content: center;
+    background-image: url('https://img.freepik.com/free-vector/black-white-grunge-paint-background_1409-1576.jpg?w=1380&t=st=1708524626~exp=1708525226~hmac=8f7561c1009302ba9c30e1153f944ef9c29a2857ede509615d24ccfec02c5c46');
+    background-size: cover;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 2;
+}
+
+.serverContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.servers {
+    background-image: url('https://cdn.wallpapersafari.com/84/55/Iaru1q.jpg');
+    background-size: cover;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    justify-content: center;
+    text-align: center;
+    line-height: normal;
+    padding: 40px;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.subHeading {
+    text-align: center;
+}
+
+.body {
+    background-color: #303063;
+}
+
+.h3 {
+    color: #ffffff;
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.p {
+    color: #dddddd;
+    font-size: 1.2em;
+    line-height: 1.5;
 }

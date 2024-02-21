@@ -1,9 +1,11 @@
 export default function Login() {
     return (
         <body>
-            <form id="loginForm" method="post">
-                <h1>Login</h1>
-                <label>Username</label>
+            <form id="loginForm" method="post" >
+                <a href="/"><h1>Hemfree</h1></a> 
+                <br />
+                <h2>Login</h2>
+                <label>Username </label>
                 <input
                     type="text"
                     id="username"
@@ -11,7 +13,7 @@ export default function Login() {
                     required
                 ></input>
                 <h1></h1>
-                <label>Password</label>
+                <label>Password </label>
                 <input
                     type="password"
                     id="password"
@@ -20,7 +22,8 @@ export default function Login() {
                 ></input>
                 <h1></h1>
                 <input type="submit" value="Login"></input>
-                <a href="/signup">Inscrivez-vous</a>
+                <h1></h1>Nouveau sur Hemfree ?<h1></h1>
+                <a href="/signup">Inscrivez-Vous</a>
             </form>
         </body>
     );
