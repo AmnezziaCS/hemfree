@@ -8,30 +8,43 @@ export default function Home() {
             <head>
                 <title>Hemfree</title>
             </head>
-            <body>
-                <header>
-                    <h1>Hemfree</h1>
-                    <nav>
-                        <a href="/login">Login</a>
-                        <a href="/signup">Sign Up</a>
-                    </nav>
-                </header>
-                <main>
-                    <section id="Bienvenue">
-                        <h3>Bienvenue sur Hemfree</h3>
-                    </section>
-                    <section id="Serveurs">
-                        <h2>Nos serveurs</h2>
-                        <ul>
-                            <li>
-                                <a href="Serveur1.html">Serveur 1</a>
-                            </li>
-                            <li>
-                                <a href="Serveur2.html">Serveur 2</a>
-                            </li>
-                        </ul>
-                    </section>
+            <body className={styles.ody}>
+                <nav className={styles.nav}>
+                    <a href="/" className={styles.navLinku}>
+                        Hemfree{' '}
+                    </a>
+                    <a href="/" className={styles.navLink}>
+                        Home{' '}
+                    </a>
+                    <a href="/login" className={styles.navLink}>
+                        Login
+                    </a>
+                    <a href="/signup" className={styles.navLink}>
+                        Sign Up
+                    </a>
+                </nav>
 
+                <main>
+                    <section id="Bienvenue" className={styles.container}>
+                        <h3>Hemfree</h3>
+                        <p>
+                            Les meilleurs serveurs Minecraft
+                        </p>
+                    </section>
+                    <section id="Serveurs" className={styles.servers}>
+                        <h3 className={styles.heading}>Nos serveurs</h3>
+                        <p className={styles.subHeading}>
+                            Choisissez votre serveur
+                        </p>
+                        <div className={styles.serverContainer}>
+                            <a href="Serveur2.html" className={styles.server}>
+                                Serveur 1
+                            </a>
+                            <a href="Serveur1.html" className={styles.server}>
+                                Serveur 2
+                            </a>
+                        </div>
+                    </section>
                     <section
                         id="Contact"
                         className={[
@@ -39,23 +52,29 @@ export default function Home() {
                             styles.contentSection,
                         ].join(' ')}
                     >
-                        <div className="container">
+                        <div className="CON">
                             <div className="row">
-                                <div className="col-Ig-8 mx-auto">
-                                    <h2> Contact us</h2>
-                                    <p>Vous pouvez nous contacter sur</p>
+                                <div className="CC">
+                                    <h2>A propos</h2>
+                                    <p>Vous pouvez nous consultez sur</p>
                                     <ul className="list-inline banner-social-buttons"></ul>
                                     <li className="list-inline-item">
                                         <button
                                             className="btn btn-primary btn-lg btn-default"
                                             type="button"
                                         >
-                                            <i className="fa fa-google-plus fa-fw"></i>
+                                            <i className="fa fa-facebook-plus fa-fw"></i>
                                             <span className="network-name">
-                                                Google+
+                                                <a
+                                                    href="https://www.facebook.com/profile.php?id=61556567765376"
+                                                    target="_blank"
+                                                >
+                                                    Facebook
+                                                </a>
                                             </span>
                                         </button>
                                     </li>
+                                    <h1></h1>
                                     <li className="list-inline-item">
                                         <button
                                             className="btn btn-primary btn-lg btn-default"
@@ -63,31 +82,27 @@ export default function Home() {
                                         >
                                             <i className="fa fa-twitter fa-fw"></i>
                                             <span className="network-name">
-                                                Twitter
+                                                <a
+                                                    href="https://twitter.com/HemfreeCraft"
+                                                    target="_blank"
+                                                >
+                                                    Twitter
+                                                </a>
                                             </span>
                                         </button>
                                     </li>
-                                    <li className="list-inline-item">
-                                        <button
-                                            className="btn btn-primary btn-lg btn-default"
-                                            type="button"
-                                        >
-                                            <i className="fa fa-github fa-fw"></i>
-                                            <span className="network-name">
-                                                Github
-                                            </span>
-                                        </button>
-                                    </li>
-                                    <h1></h1>
-                                    <a href="link">Hemfree@agencemail.com</a>
-                                    <h1></h1>
-                                    <a href="link">+33 6 02 01 59 58</a>
                                 </div>
                             </div>
                         </div>
                     </section>
                 </main>
                 <footer>
+                    <h2>Contact us</h2>
+                    <a href="https://myaccount.google.com/u/5/?hl=fr&utm_source=OGB&utm_medium=act&pli=1">
+                        Hemfree.minecraft@gmail.com
+                    </a>
+                    <h1></h1>
+                    <a href="link">123-456-7890</a>
                     <p>&copy; 2024 - Hemfree</p>
                 </footer>
             </body>
