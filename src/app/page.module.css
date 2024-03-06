@@ -1,10 +1,7 @@
 .contentSection {
     padding-top: 200px;
     padding-bottom: 200px;
-    background-color: #303063;
     color: #000000;
-    background-image: url('https://img.freepik.com/premium-vector/vector-abstract-background-with-overlap-layer-dynamic-shadow-background-eps-10_87783-530.jpg');
-    background-size: cover;
 }
 
 .textCenter {
@@ -25,7 +22,7 @@
     display: flex;
     align-items: center;
     justify-content: end;
-    background-color: #212122;
+    background-color: #160404;
 }
 
 .navLink {
@@ -39,7 +36,7 @@
 .navLinku {
     margin-right: 1440px;
     text-decoration: none;
-    color: #9e1b1b;
+    color: #ffffff;
     font-size: large;
 }
 
@@ -63,12 +60,12 @@
 
 .container {
     padding: 20px;
-    background-color: #303063;
+    background-color: #212147;
     color: rgb(255, 255, 255);
     height: 65vh;
     text-align: center;
     justify-content: center;
-    background-image: url('https://img.freepik.com/free-vector/black-white-grunge-paint-background_1409-1576.jpg?w=1380&t=st=1708524626~exp=1708525226~hmac=8f7561c1009302ba9c30e1153f944ef9c29a2857ede509615d24ccfec02c5c46');
+    background-image: url('https://i.pinimg.com/originals/7a/1d/34/7a1d34e5a954b3997ebcd3308b68a1b7.png');
     background-size: cover;
     font-size: 2em;
     text-transform: uppercase;
@@ -82,8 +79,6 @@
 }
 
 .servers {
-    background-image: url('https://cdn.wallpapersafari.com/84/55/Iaru1q.jpg');
-    background-size: cover;
     font-size: 1.5em;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -106,7 +101,7 @@
     background-color: #303063;
 }
 
-.h3 {
+.h2 {
     color: #ffffff;
     font-size: 2em;
     font-weight: bold;
@@ -114,8 +109,4 @@
     letter-spacing: 2px;
 }
 
-.p {
-    color: #dddddd;
-    font-size: 1.2em;
-    line-height: 1.5;
-}
+
