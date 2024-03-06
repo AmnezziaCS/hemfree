@@ -10,9 +10,6 @@ export default function Home() {
             </head>
             <body className={styles.ody}>
                 <nav className={styles.nav}>
-                    <a href="/" className={styles.navLinku}>
-                        Hemfree{' '}
-                    </a>
                     <a href="/" className={styles.navLink}>
                         Home{' '}
                     </a>
@@ -51,34 +48,45 @@ export default function Home() {
                         ].join(' ')}
                     >
                         <div className="aboutSection">
-                          <h2>A propos</h2>
-                           <p>Vous pouvez nous consulter sur</p>
-                             <ul className="list-inline banner-social-buttons">
-                               <li className="list-inline-item">
-                                 <button className="btn facebook" type="button">
-                                   <i className="fa fa-facebook"></i>
-                                     <span className="network-name">
-                                       <a href="https://www.facebook.com/profile.php?id=61556567765376" target="_blank">
-                                          Facebook
-                                        </a>
-                                     </span>
-                                 </button>
-                             </li>
-                       <li className="list-inline-item">
-                           <button className="btn twitter" type="button">
-                             <i className="fa fa-twitter"></i>
-                             <span className="network-name">
-                                 <a href="https://twitter.com/HemfreeCraft" target="_blank">
-                                 Twitter
-                                 </a>
-                             </span>
-                           </button>
-                         </li>
-                       </ul>
-                     </div>
-
+                            <h2>A propos</h2>
+                            <p>Vous pouvez nous consulter sur</p>
+                            <ul className="list-inline banner-social-buttons">
+                                <li className="list-inline-item">
+                                    <button
+                                        className="btn facebook"
+                                        type="button"
+                                    >
+                                        <i className="fa fa-facebook"></i>
+                                        <span className="network-name">
+                                            <a
+                                                href="https://www.facebook.com/profile.php?id=61556567765376"
+                                                target="_blank"
+                                            >
+                                                Facebook
+                                            </a>
+                                        </span>
+                                    </button>
+                                </li>
+                                <li className="list-inline-item">
+                                    <button
+                                        className="btn twitter"
+                                        type="button"
+                                    >
+                                        <i className="fa fa-twitter"></i>
+                                        <span className="network-name">
+                                            <a
+                                                href="https://twitter.com/HemfreeCraft"
+                                                target="_blank"
+                                            >
+                                                Twitter
+                                            </a>
+                                        </span>
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
                     </section>
-                    </main>
+                </main>
                 <footer>
                     <h2>Contact us</h2>
                     <a href="https://myaccount.google.com/u/5/?hl=fr&utm_source=OGB&utm_medium=act&pli=1">

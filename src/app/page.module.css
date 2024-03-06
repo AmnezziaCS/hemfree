@@ -18,10 +18,10 @@
 }
 
 .nav {
-    margin-left: auto;
     display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: end;
+    justify-content: center;
     background-color: #160404;
 }
 
@@ -108,5 +108,3 @@
     text-transform: uppercase;
     letter-spacing: 2px;
 }
-
-
