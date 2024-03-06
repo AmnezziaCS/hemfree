@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import { Fragment } from 'react';
 
@@ -9,25 +10,43 @@ export const Footer = ({ children }: { children: React.ReactNode }) => {
             {children}
             <footer className={styles.footer}>
                 <div className={styles.itemsContainer}>
-                    <h2>Contact us</h2>
+                    <h2>Contacter nous</h2>
                     <p>Vous pouvez nous retrouver sur</p>
                     <div className={styles.socialContainer}>
-                        <button type="button">
+                        <button type="button" className={styles.buttonFacebook}>
                             <Link href="https://www.facebook.com/profile.php?id=61556567765376">
-                                Facebook
+                                <Image
+                                    alt="facebook"
+                                    src="https://www.svgrepo.com/show/521654/facebook.svg"
+                                    width={20}
+                                    height={20}
+                                />
                             </Link>
                         </button>
-                        <button type="button">
+                        <button type="button" className={styles.buttonTwitter}>
                             <Link
                                 href="https://twitter.com/users
                             "
                             >
-                                Twitter
+                                <Image
+                                    alt="twitter"
+                                    src="https://www.svgrepo.com/show/521900/twitter.svg"
+                                    width={20}
+                                    height={20}
+                                />
                             </Link>
                         </button>
-                        <button type="button">
+                        <button
+                            type="button"
+                            className={styles.buttonInstagram}
+                        >
                             <Link href="https://www.instagram.com/hemfree/">
-                                Instagram
+                                <Image
+                                    alt="instagram"
+                                    src="https://www.svgrepo.com/show/521711/instagram.svg"
+                                    width={20}
+                                    height={20}
+                                />
                             </Link>
                         </button>
                     </div>

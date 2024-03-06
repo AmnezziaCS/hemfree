@@ -16,9 +16,37 @@
     flex-direction: row;
     justify-content: center;
     width: 50%;
-    padding-bottom: 1rem;
+    width: 100%;
 }
 
 .socialContainer > * {
     margin: 0 10px;
+}
+
+.buttonFacebook {
+    color: #3b5998;
+}
+
+.buttonTwitter {
+    color: #1da1f2;
+}
+
+.buttonInstagram {
+    color: #c13584;
+}
+
+.buttonFacebook,
+.buttonTwitter,
+.buttonInstagram {
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+.buttonFacebook:hover,
+.buttonTwitter:hover,
+.buttonInstagram:hover {
+    color: #000000;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
 }
