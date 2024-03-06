@@ -1,0 +1,17 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #160404;
+}
+
+.navbarLink {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 1.5rem;
+}
+
+.navbarLink:hover {
+    color: #dddddd;
+}

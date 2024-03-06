@@ -5,18 +5,6 @@ import styles from './page.module.css';
 export default function Home() {
     return (
         <Fragment>
-            <nav className={styles.nav}>
-                <a href="/" className={styles.navLink}>
-                    Home{' '}
-                </a>
-                <a href="/login" className={styles.navLink}>
-                    Login
-                </a>
-                <a href="/signup" className={styles.navLink}>
-                    Sign Up
-                </a>
-            </nav>
-
             <main>
                 <section id="Bienvenue" className={styles.container}>
                     <h3>Hemfree</h3>

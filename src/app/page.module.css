@@ -8,42 +8,6 @@
     text-align: center;
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-size: contain;
-    background-image: url('https://img.freepik.com/free-photo/artistic-texture-paint-brush-stroke_23-2148177480.jpg?w=1480&t=st=1708524698~exp=1708525298~hmac=4bb25032d73498784078a662dfd5310427b052755a03907d3fd0e956baebf69f');
-}
-
-.nav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    background-color: #160404;
-}
-
-.navLink {
-    margin-right: 10px;
-    margin-left: 20px;
-    text-decoration: none;
-    color: #ffffff;
-    padding: 20px;
-}
-
-.navLinku {
-    margin-right: 1440px;
-    text-decoration: none;
-    color: #ffffff;
-    font-size: large;
-}
-
-.navLink:hover {
-    color: #dddddd;
-}
-
 .h3 {
     color: #ffffff;
     font-size: 2em;

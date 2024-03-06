@@ -1,5 +1,7 @@
+import { Navbar } from '@/components/navbar';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
+import { Fragment } from 'react';
 
 import '../styles/global.css';
 
@@ -16,8 +18,10 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <html lang="en">
-            <body className={inter.className}>{children}</body>
-        </html>
+        <Fragment>
+            <Navbar>
+                <body className={inter.className}>{children}</body>
+            </Navbar>
+        </Fragment>
     );
 }
