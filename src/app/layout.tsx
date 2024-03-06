@@ -1,11 +1,9 @@
+import { Footer } from '@/components/footer';
 import { Navbar } from '@/components/navbar';
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
 import { Fragment } from 'react';
 
 import '../styles/global.css';
-
-const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
     title: 'Hemfree',
@@ -20,7 +18,9 @@ export default function RootLayout({
     return (
         <Fragment>
             <Navbar>
-                <body className={inter.className}>{children}</body>
+                <Footer>
+                    <body>{children}</body>
+                </Footer>
             </Navbar>
         </Fragment>
     );

@@ -1,0 +1,11 @@
+.footer {
+    position: absolute;
+    align-content: center;
+    align-items: center;
+}
+
+.itemsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
