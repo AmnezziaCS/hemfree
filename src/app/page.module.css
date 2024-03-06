@@ -1,28 +1,4 @@
-.contentSection {
-    padding-top: 200px;
-    padding-bottom: 200px;
-    color: #000000;
-}
-
-.textCenter {
-    text-align: center;
-}
-
-.h3 {
-    color: #ffffff;
-    font-size: 2em;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
-
-.p {
-    color: #dddddd;
-    font-size: 1.2em;
-    line-height: 1.5;
-}
-
-.container {
+.titleContainer {
     padding: 20px;
     background-color: #212147;
     color: rgb(255, 255, 255);
@@ -42,7 +18,12 @@
     justify-content: space-between;
 }
 
-.servers {
+.contentSection {
+    color: #000000;
+    text-align: center;
+}
+
+.serversContainer {
     font-size: 1.5em;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -50,21 +31,4 @@
     text-align: center;
     line-height: normal;
     padding: 40px;
-}
-
-.heading {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.subHeading {
-    text-align: center;
-}
-
-.h2 {
-    color: #ffffff;
-    font-size: 2em;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 2px;
 }
