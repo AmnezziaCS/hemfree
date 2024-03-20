@@ -9,8 +9,8 @@ export const Footer = ({ children }: { children: React.ReactNode }) => {
         <Fragment>
             {children}
             <footer className={styles.footer}>
-                <div className={styles.itemsContainer}>
-                    <h2>Contacter nous</h2>
+                <div id='contact' className={styles.itemsContainer}>
+                    <h2>Nos Contacts</h2>
                     <p>Vous pouvez nous retrouver sur</p>
                     <div className={styles.socialContainer}>
                         <button type="button" className={styles.buttonFacebook}>
@@ -53,7 +53,7 @@ export const Footer = ({ children }: { children: React.ReactNode }) => {
                     <a href="https://myaccount.google.com/u/5/?hl=fr&utm_source=OGB&utm_medium=act&pli=1">
                         Hemfree.minecraft@gmail.com
                     </a>
-                    <p>&copy; 2024 - Hemfree</p>
+                    <p>&copy;No Copyright - Hemfree</p>
                 </div>
             </footer>
         </Fragment>
