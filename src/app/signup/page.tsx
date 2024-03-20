@@ -33,8 +33,8 @@ export default function Signup() {
             className={styles.form}
         >
             <h2>Sign Up</h2>
-            <label htmlFor="name">Name</label>
-            <input type="text" id="name" name="name" required />
+            <label htmlFor="name">Username</label>
+            <input type="text" id="username" name="username" required />
             <label htmlFor="email">Email</label>
             <input type="email" id="email" name="email" required />
             <label htmlFor="password">Password</label>
