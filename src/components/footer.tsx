@@ -9,7 +9,7 @@ export const Footer = ({ children }: { children: React.ReactNode }) => {
         <Fragment>
             {children}
             <footer className={styles.footer}>
-                <div id='contact' className={styles.itemsContainer}>
+                <div id="contact" className={styles.itemsContainer}>
                     <h2>Nos Contacts</h2>
                     <p>Vous pouvez nous retrouver sur</p>
                     <div className={styles.socialContainer}>
@@ -24,10 +24,7 @@ export const Footer = ({ children }: { children: React.ReactNode }) => {
                             </Link>
                         </button>
                         <button type="button" className={styles.buttonTwitter}>
-                            <Link
-                                href="https://twitter.com/users
-                            "
-                            >
+                            <Link href="https://twitter.com/users">
                                 <Image
                                     alt="twitter"
                                     src="https://www.svgrepo.com/show/521900/twitter.svg"
