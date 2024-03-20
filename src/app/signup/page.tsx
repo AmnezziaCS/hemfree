@@ -1,5 +1,7 @@
 'use client';
 
+import Link from 'next/link';
+
 import styles from './page.module.css';
 
 export default function Signup() {
@@ -41,7 +43,7 @@ export default function Signup() {
             <input type="password" id="password" name="password" required />
             <button type="submit">Sign Up</button>
             <p>Vous avez déja un compte ? </p>
-            <a href="/login">Connecter-vous</a>
+            <Link href="/login">Connecter-vous</Link>
         </form>
     );
 }

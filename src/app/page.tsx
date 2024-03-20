@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 import styles from './page.module.css';
 
@@ -45,12 +46,12 @@ export default function Home() {
                 <h3>Nos serveurs</h3>
                 <p>Choisissez votre serveur</p>
                 <div>
-                    <a href="/servers/1" className={styles.serveur}>
+                    <Link href="/servers/1" className={styles.serveur}>
                         Serveur 1
-                    </a>
-                    <a href="/servers/2" className={styles.serveur}>
+                    </Link>
+                    <Link href="/servers/2" className={styles.serveur}>
                         Serveur 2
-                    </a>
+                    </Link>
                 </div>
             </section>
             <section className={styles.infos}>

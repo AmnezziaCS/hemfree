@@ -47,9 +47,9 @@ export const Footer = ({ children }: { children: React.ReactNode }) => {
                             </Link>
                         </button>
                     </div>
-                    <a href="https://myaccount.google.com/u/5/?hl=fr&utm_source=OGB&utm_medium=act&pli=1">
+                    <Link href="https://myaccount.google.com/u/5/?hl=fr&utm_source=OGB&utm_medium=act&pli=1">
                         Hemfree.minecraft@gmail.com
-                    </a>
+                    </Link>
                     <p>&copy;No Copyright - Hemfree</p>
                 </div>
             </footer>

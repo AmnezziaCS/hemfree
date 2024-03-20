@@ -1,5 +1,7 @@
 'use client';
 
+import Link from 'next/link';
+
 import styles from './page.module.css';
 
 export default function Login() {
@@ -37,7 +39,7 @@ export default function Login() {
             <input type="password" id="password" name="password" required />
             <button type="submit">Login</button>
             <p>Nouveau sur Hemfree ?</p>
-            <a href="/signup">Inscrivez-Vous</a>
+            <Link href="/signup">Inscrivez-Vous</Link>
         </form>
     );
 }

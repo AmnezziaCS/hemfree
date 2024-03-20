@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { Fragment } from 'react';
 
 import styles from './navbar.module.css';
@@ -6,26 +7,26 @@ export const Navbar = ({ children }: { children: React.ReactNode }) => {
     return (
         <Fragment>
             <nav className={styles.navbar}>
-                <a href="/" className={styles.navbarLink}>
+                <Link href="/" className={styles.navbarLink}>
                     <h4>Home</h4>
-                </a>
-                <a href="/login" className={styles.navbarLink}>
+                </Link>
+                <Link href="/login" className={styles.navbarLink}>
                     <h4>Login</h4>
-                </a>
-                <a href="/signup" className={styles.navbarLink}>
+                </Link>
+                <Link href="/signup" className={styles.navbarLink}>
                     <h4>Sign up</h4>
-                </a>
+                </Link>
                 <details className={styles.dropdown}>
                     <summary className={styles.dropdownTitle}></summary>
-                    <a href="#infos" className={styles.navP}>
+                    <Link href="#infos" className={styles.navP}>
                         A propos
-                    </a>
-                    <a href="#contact" className={styles.navP}>
+                    </Link>
+                    <Link href="#contact" className={styles.navP}>
                         Contact
-                    </a>
-                    <a href="#serveurs" className={styles.navP}>
+                    </Link>
+                    <Link href="#serveurs" className={styles.navP}>
                         Serveurs
-                    </a>
+                    </Link>
                 </details>
             </nav>
             {children}
