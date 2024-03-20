@@ -1,7 +1,6 @@
 import { Footer } from '@/components/footer';
 import { Navbar } from '@/components/navbar';
 import type { Metadata } from 'next';
-import { Fragment } from 'react';
 
 import '../styles/global.css';
 
@@ -16,12 +15,14 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <Fragment>
-            <Navbar>
-                <Footer>
-                    <body>{children}</body>
-                </Footer>
-            </Navbar>
-        </Fragment>
+        <html lang="en">
+            <body>
+                <Navbar>
+                    <Footer>
+                        <main>{children}</main>
+                    </Footer>
+                </Navbar>
+            </body>
+        </html>
     );
 }
