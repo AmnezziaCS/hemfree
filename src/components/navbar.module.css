@@ -3,15 +3,53 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: #160404;
+    background-color: #ffffff;
 }
 
 .navbarLink {
     text-decoration: none;
-    color: #ffffff;
-    padding: 1.5rem;
+    color: #242323;
+    padding: 1rem;
+    font-size: 1.5rem;
 }
 
 .navbarLink:hover {
     color: #dddddd;
+}
+
+.navP {
+    text-decoration: none;
+    color: #242323;
+    padding: 3rem;
+    font-size: 1.5rem;
+    color: rgb(22, 165, 86);
+}
+
+.navP:hover {
+    color: #dddddd;
+}
+
+.dropdown {
+    position: relative;
+    cursor: pointer;
+}
+
+.dropdown summary {
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+.dropdown a {
+    display: none;
+    background-color: #f9f9f9;
+    padding: 0;
+    z-index: 1;
+    box-sizing: border-box;
+    color: #333;
+}
+
+.dropdown:hover a {
+    display: block;
 }
