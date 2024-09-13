@@ -7,7 +7,7 @@ Hemfree is a website meant to be the platform for our dockerized minecraft serve
 First, clone the repository:
 
 ```bash
-git clone https://github.com/amnezziaa/hemfree.git
+git clone https://github.com/AmnezziaCS/hemfree.git
 ```
 
 Then, install the dependencies:
